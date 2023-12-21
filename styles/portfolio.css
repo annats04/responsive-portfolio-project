@@ -3,6 +3,17 @@
   --heading-font-family: Arial, Helvetica, sans-serif;
   --secondary-color: #f9f7fe;
 }
+
+h2 {
+  font-family: "Arvo", serif;
+  font-size: 35px;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -14,6 +25,7 @@
   font-size: 96px;
   font-weight: 700;
   color: black;
+  line-height: 1.5;
 }
 .hero h2 {
   font-family: "Arvo", serif;
@@ -29,4 +41,46 @@
   line-height: 27px;
   padding: 12px 20px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  font-family: "Noto Sans" sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .btn {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 17px;
+  }
+  .project-description {
+    padding: 0 30px;
+    text-align: justify;
+  }
+  .project-description > h2 {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
 }
