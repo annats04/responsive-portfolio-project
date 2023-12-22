@@ -49,6 +49,24 @@ header {
   font-weight: 700;
 }
 
+.about-section h1 {
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.about-section p {
+  font-size: 14px;
+  font-family: "Noto Sans", sans serif;
+}
+
+.about-section {
+  padding: 80px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -56,6 +74,10 @@ header {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+.jazz-app {
+  border-radius: 5px;
 }
 
 @media (max-width: 960px) {
@@ -81,6 +103,11 @@ header {
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 100px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
