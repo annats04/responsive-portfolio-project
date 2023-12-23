@@ -43,35 +43,48 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-  font-family: "Noto Sans" sans-serif;
-  font-size: 20px;
-  font-weight: 700;
+.project-description {
+  padding: 0 10px;
 }
 
-.about-section h1 {
+header {
+  font-family: "Noto Sans" sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.content-container h1 {
   font-size: 50px;
   line-height: 1.5;
 }
 
-.about-section p {
+.content-container p {
   font-size: 14px;
   font-family: "Noto Sans", sans serif;
 }
 
-.about-section {
+.content-container {
   padding: 80px 20px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
+}
+
+.app {
+  padding: 20px;
+}
+
+.app:hover {
+  background-color: var(--secondary-color);
 }
 
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 27px;
   padding: 12px 20px;
 }
@@ -81,8 +94,15 @@ header {
 }
 
 @media (max-width: 960px) {
+  .hero {
+    text-align: center;
+  }
   .hero h1 {
-    font-size: 50px;
+    font-size: 40px;
+  }
+
+  header {
+    font-size: 20px;
   }
 
   .btn {
@@ -106,7 +126,7 @@ header {
     padding: 100px 20px;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
