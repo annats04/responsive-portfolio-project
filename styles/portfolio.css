@@ -9,16 +9,22 @@ h2 {
   font-family: "Arvo", serif;
   font-size: 35px;
 }
+.about-section p {
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: 600;
+  line-height: 23px;
+}
 
-p {
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 300;
+.project-description p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
   font-size: 15px;
 }
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero h1 {
@@ -84,10 +90,11 @@ header {
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  font-size: 16px;
+  border-radius: 10px;
+  font-size: 15px;
   line-height: 27px;
-  padding: 12px 20px;
+  padding: 12px 18px;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .jazz-app {
@@ -124,9 +131,10 @@ nav ul {
 
 nav a {
   text-decoration: none;
+  font-size: 21px;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
   transition: 100ms ease-in-out;
 }
 
@@ -136,6 +144,10 @@ nav a:hover {
 
 footer {
   margin: 50px 0;
+}
+
+.about-title {
+  font-family: "Noto sans", sans-serif;
 }
 
 footer .email-link {
@@ -189,7 +201,7 @@ footer .social-links a:hover {
   .btn {
     font-size: 14px;
     line-height: 20px;
-    padding: 10px 17px;
+    padding: 10px 14px;
   }
   .project-description {
     padding: 0 30px;
@@ -208,11 +220,14 @@ footer .social-links a:hover {
   }
 
   .btn {
-    font-size: 15px;
+    font-size: 12px;
+  }
+  .about-section p {
+    text-align: justify;
   }
 
   .hero {
-    padding: 100px 20px;
+    padding: 60px 20px;
   }
 
   .content-container {
